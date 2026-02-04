@@ -7,3 +7,8 @@ set_prop(tzdaemon, vendor_tzdaemon_prop)
 unix_socket_connect(tzdaemon, property, init)
 
 allow tzdaemon tz_device:chr_file rw_file_perms;
+
+allow tzdaemon efs_file:dir search;
+
+allow tzdaemon tee_efs_file:dir r_dir_perms;
+allow tzdaemon tee_efs_file:file r_file_perms;
