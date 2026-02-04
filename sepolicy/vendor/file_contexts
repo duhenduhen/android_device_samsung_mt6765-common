@@ -1,6 +1,9 @@
 # Block devices
 /dev/block/by-name/efs          u:object_r:efs_block_device:s0
 
+# Binaries
+/vendor/bin/tzdaemon            u:object_r:tzdaemon_exec:s0
+
 # EFS
 /mnt/vendor/efs(/.*)?           u:object_r:efs_file:s0
 /mnt/vendor/efs/tee(/.*)?       u:object_r:tee_efs_file:s0
