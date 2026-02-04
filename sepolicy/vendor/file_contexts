@@ -4,3 +4,6 @@
 # EFS
 /mnt/vendor/efs(/.*)?           u:object_r:efs_file:s0
 /mnt/vendor/efs/tee(/.*)?       u:object_r:tee_efs_file:s0
+
+# TEE
+/dev/tee[0-9]*                  u:object_r:tee_device:s0
