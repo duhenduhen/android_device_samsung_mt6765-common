@@ -109,7 +109,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)
 
 # SEPolicy
-BOARD_MTK_SEPOLICY_IS_LEGACY := true
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
 
 # Verified Boot
