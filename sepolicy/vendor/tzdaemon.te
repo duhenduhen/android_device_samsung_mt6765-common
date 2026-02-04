@@ -5,3 +5,5 @@ init_daemon_domain(tzdaemon)
 
 set_prop(tzdaemon, vendor_tzdaemon_prop)
 unix_socket_connect(tzdaemon, property, init)
+
+allow tzdaemon tz_device:chr_file rw_file_perms;
