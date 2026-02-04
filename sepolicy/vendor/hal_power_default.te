@@ -1,0 +1,2 @@
+allow hal_power_default samsung_sysfs_met:dir search;
+allow hal_power_default samsung_sysfs_met:file rw_file_perms;
