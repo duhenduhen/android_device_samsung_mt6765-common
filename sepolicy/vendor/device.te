@@ -1,1 +1,2 @@
 type efs_block_device, dev_type;
+type tz_device, dev_type;

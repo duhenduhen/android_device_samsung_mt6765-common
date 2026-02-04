@@ -7,3 +7,9 @@
 
 # TEE
 /dev/tee[0-9]*                  u:object_r:tee_device:s0
+
+# Trustzone
+/dev/tzdev                      u:object_r:tz_device:s0
+/dev/tziwsock                   u:object_r:tz_device:s0
+/dev/tziwshmem                  u:object_r:tz_device:s0
+/dev/grdm                       u:object_r:grdm_device:s0
