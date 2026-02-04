@@ -1,0 +1,4 @@
+vendor_internal_prop(vendor_bluetooth_firmware_prop)
+vendor_internal_prop(vendor_tzdaemon_prop)
+vendor_internal_prop(vendor_secureos_prop)
+vendor_internal_prop(vendor_tzts_prop)
