@@ -1,5 +1,9 @@
-genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:main_pmic/mt6357-charger-type-detection/power_supply/ac/wakeup u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:main_pmic/mt6357-charger-type-detection/power_supply/otg/wakeup u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:main_pmic/mt6357-charger-type-detection/power_supply/usb/wakeup u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/10238000.gce/wakeup u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/11010000.spi/spi_master/spi1/spi1.2/wakeup u:object_r:sysfs_wakeup:s0
+# Wakeup
+genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:main_pmic/mt6357-charger-type-detection/power_supply/ac/wakeup   u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:main_pmic/mt6357-charger-type-detection/power_supply/otg/wakeup  u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:main_pmic/mt6357-charger-type-detection/power_supply/usb/wakeup  u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/10238000.gce/wakeup                                                                            u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/11010000.spi/spi_master/spi1/spi1.2/wakeup                                                     u:object_r:sysfs_wakeup:s0
+
+# met
+genfscon sysfs /devices/platform/10012000.dvfsrc/met                                                                            u:object_r:samsung_sysfs_met:s0

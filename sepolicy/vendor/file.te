@@ -1,1 +1,2 @@
 type tee_efs_file, file_type;
+type samsung_sysfs_met, fs_type, sysfs_type;
