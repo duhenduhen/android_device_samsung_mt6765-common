@@ -1,0 +1,3 @@
+set_prop(vendor_init, vendor_mtk_emcamera_prop)
+set_prop(vendor_init, vendor_mtk_soc_prop)
+set_prop(vendor_init, vendor_bluetooth_firmware_prop)
