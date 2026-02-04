@@ -111,6 +111,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)
 # SEPolicy
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
 include device/lineage/sepolicy/libperfmgr/sepolicy.mk
+BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
