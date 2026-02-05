@@ -3,3 +3,5 @@ init_daemon_domain(mnld)
 net_domain(mnld)
 
 allow mnld self:capability { net_admin net_raw };
+
+allow mnld samsung_hal_gnss_service:unix_dgram_socket sendto;
