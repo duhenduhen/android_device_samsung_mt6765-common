@@ -1,0 +1,5 @@
+init_daemon_domain(mnld)
+
+net_domain(mnld)
+
+allow mnld self:capability { net_admin net_raw };
