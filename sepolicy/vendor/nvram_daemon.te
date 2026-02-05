@@ -1,0 +1,2 @@
+get_prop(nvram_daemon, exported_system_prop)
+get_prop(nvram_daemon, vendor_default_prop)
