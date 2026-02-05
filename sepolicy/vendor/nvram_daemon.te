@@ -1,2 +1,5 @@
 get_prop(nvram_daemon, exported_system_prop)
 get_prop(nvram_daemon, vendor_default_prop)
+
+allow nvram_daemon efs_file:dir r_dir_perms;
+allow nvram_daemon efs_file:file r_file_perms;
