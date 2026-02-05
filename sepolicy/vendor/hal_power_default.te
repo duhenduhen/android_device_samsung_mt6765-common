@@ -1,2 +1,11 @@
 allow hal_power_default samsung_sysfs_met:dir search;
 allow hal_power_default samsung_sysfs_met:file rw_file_perms;
+allow hal_power_default sysfs_fbt_cpu:dir search;
+allow hal_power_default sysfs_fbt_cpu:file rw_file_perms;
+allow hal_power_default sysfs_fpsgo:dir search;
+allow hal_power_default sysfs_fpsgo:file rw_file_perms;
+
+allow hal_power_default proc_perfmgr:dir r_dir_perms;
+allow hal_power_default proc_perfmgr:file rw_file_perms;
+
+allow hal_power_default sysfs:dir r_dir_perms;
