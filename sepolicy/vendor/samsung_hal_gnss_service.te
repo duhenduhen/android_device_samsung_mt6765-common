@@ -5,8 +5,8 @@ init_daemon_domain(samsung_hal_gnss_service)
 
 hal_server_domain(samsung_hal_gnss_service, hal_gnss)
 
-allow samsung_hal_gnss_service hwservicemanager:binder call;
+add_hwservice(samsung_hal_gnss_service, samsung_gnss_hwservice)
+allow samsung_hal_gnss_service samsung_gnss_hwservice:hwservice_manager find;
 
-allow samsung_hal_gnss_service hal_gnss_hwservice:hwservice_manager find;
-
+binder_call(samsung_hal_gnss_service, hwservicemanager)
 allow samsung_hal_gnss_service mnld:unix_dgram_socket sendto;
