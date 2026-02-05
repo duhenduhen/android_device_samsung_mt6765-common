@@ -1,0 +1,8 @@
+type samsung_hal_keymaster_service, domain;
+type samsung_hal_keymaster_service_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(samsung_hal_keymaster_service)
+
+hal_server_domain(samsung_hal_keymaster_service, hal_keymaster)
+
+get_prop(samsung_hal_keymaster_service, vendor_tzts_prop)
