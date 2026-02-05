@@ -1,0 +1,5 @@
+type tzts_daemon, domain;
+type tzts_daemon_exec, exec_type, vendor_file_type, file_type;
+init_daemon_domain(tzts_daemon)
+
+allow tzts_daemon tz_device:chr_file rw_file_perms;
