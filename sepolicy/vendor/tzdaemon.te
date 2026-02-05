@@ -13,3 +13,5 @@ allow tzdaemon efs_file:dir search;
 
 allow tzdaemon tee_efs_file:dir r_dir_perms;
 allow tzdaemon tee_efs_file:file r_file_perms;
+
+allow tzdaemon mnt_vendor_file:dir search;
