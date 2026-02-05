@@ -1,3 +1,6 @@
+# Cgroup
+/dev/stune(/.*)?                u:object_r:cgroup:s0
+
 # Block devices
 /dev/block/by-name/efs          u:object_r:efs_block_device:s0
 
