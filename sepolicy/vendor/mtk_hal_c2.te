@@ -1,0 +1,2 @@
+allow mtk_hal_c2 graphics_device:dir search;
+allow mtk_hal_c2 graphics_device:chr_file rw_file_perms;
