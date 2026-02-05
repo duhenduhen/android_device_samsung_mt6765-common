@@ -4,3 +4,7 @@ type samsung_hal_gnss_service_exec, exec_type, vendor_file_type, file_type;
 init_daemon_domain(samsung_hal_gnss_service)
 
 hal_server_domain(samsung_hal_gnss_service, hal_gnss)
+
+allow samsung_hal_gnss_service hwservicemanager:binder call;
+
+allow samsung_hal_gnss_service hal_gnss_hwservice:hwservice_manager find;
