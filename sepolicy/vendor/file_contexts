@@ -6,6 +6,7 @@
 /vendor/bin/hw/android\.hardware\.keymaster@4\.0-service\.samsung   u:object_r:samsung_hal_keymaster_service_exec:s0
 /vendor/bin/hw/android\.hardware\.light-service\.mt6765-common      u:object_r:samsung_hal_light_service_exec:s0
 /vendor/bin/hw/android\.hardware\.usb-service\.samsung              u:object_r:samsung_hal_usb_service_exec:s0
+/vendor/bin/hw/vendor\.samsung\.hardware\.gnss@2\.0-service         u:object_r:samsung_hal_gnss_service_exec:s0
 
 # EFS
 /mnt/vendor/efs(/.*)?           u:object_r:efs_file:s0
