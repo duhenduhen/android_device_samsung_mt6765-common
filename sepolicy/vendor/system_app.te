@@ -1,0 +1,1 @@
+allow system_app pinner_service:service_manager find;
