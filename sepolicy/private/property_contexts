@@ -1,0 +1,5 @@
+security.securehw.available                 u:object_r:exported_system_prop:s0
+security.securenvm.available                u:object_r:exported_system_prop:s0
+ro.mtk_key_manager_support                  u:object_r:exported_system_prop:s0
+ro.security.                                u:object_r:exported_system_prop:s0
+persist.sys.zram.ram_expand_size            u:object_r:zram_config_prop:s0
