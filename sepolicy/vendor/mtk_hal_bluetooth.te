@@ -1,0 +1,1 @@
+dontaudit mtk_hal_bluetooth zram_config_prop:file read;
