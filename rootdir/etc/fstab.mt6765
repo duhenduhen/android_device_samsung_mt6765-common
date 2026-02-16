@@ -47,4 +47,4 @@ odm /odm ext4 ro wait,avb,logical,first_stage_mount
 /dev/block/platform/bootdevice/by-name/vbmeta /vbmeta emmc defaults defaults
 /devices/platform/externdevice* auto auto defaults voldmanaged=sdcard:auto
 /devices/platform/mt_usb* auto vfat defaults voldmanaged=usb:auto
-/dev/block/zram0 none swap defaults zramsize=2147483648,auto_configure
+/dev/block/zram0 none swap defaults zramsize=2147483648
